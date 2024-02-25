@@ -23,6 +23,7 @@ public class ArmTests {
                 .wait(2.0)
                 .moveArmTo(ArmPoseXZ.reachingForward(12, 8.0))
                 .moveArmTo(ArmPoseXZ.reachingForward(13, 0.0))
+                .moveArmTo(ArmPoseXZ.reachingForward(13, 0.0))
                 .wait(2.0)
                 .moveArmTo(ArmPoseXZ.reachingForward(13, 8.0))
                 .moveArmTo(ArmPoseXZ.reachingForward(14, 0.0))
